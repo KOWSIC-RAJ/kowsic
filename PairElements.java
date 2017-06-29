@@ -16,7 +16,7 @@ public class PairElements {
 		System.out.println("Enter the difference number");
 		int d=s.nextInt();
 		for(i=0;i<num;i++){
-			for(j=0;j<num;j++){
+			for(j=i+1;j<num;j++){
 				if(arr[i]<arr[j]){
 					if(arr[j]-arr[i]==d){
 						//System.out.println(arr[i]+","+arr[j]);
